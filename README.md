@@ -17,7 +17,7 @@ We also use libraries like `@hapi/Joi` and more in this example.
 
 # Install dependencies too
 
-- Check `package.json` for more info. 
+- Check `package.json` for more info. Use `npm install`. 
 
 # Create a new Mongo DB, or use whatever DB you'd like.
 
