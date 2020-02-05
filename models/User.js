@@ -22,6 +22,11 @@ const schema = new mongoose.Schema({
         type: Date,
         required: true,
         default: Date.now
+    },
+
+    stripeId: {
+        type: String,
+        default: null
     }
 })
 

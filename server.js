@@ -26,5 +26,10 @@ app.use("/api/auth/", require("./routes/auth/login"))
 app.use("/api/auth/", require("./routes/auth/password"))
 app.use("/api/auth/", require("./routes/auth/whoami"))
 
+app.use("/api/billing/", require("./routes/billing/listPlans"))
+app.use("/api/billing/", require("./routes/billing/checkCard"))
+app.use("/api/billing/", require("./routes/billing/subscribe"))
+app.use("/api/billing/", require("./routes/billing/unsubscribe"))
+
 console.log(`Port no: ${port}.`)
 console.log("Ready to rock!")
