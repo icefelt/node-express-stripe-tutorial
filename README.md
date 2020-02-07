@@ -1,4 +1,13 @@
-# Functionality
+# Payments user stories
+
+A user should be able to...
+
+- A user can see a list of available plans
+- A user can subscribe to a plan (only one at a time) 
+- A user can unsubscribe from a plan
+- A user can see what plan they have
+
+# User auth functionality
 
 This example allows you to:
 
